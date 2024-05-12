@@ -1,0 +1,128 @@
+@font-face{
+    font-family: 'fonte1';
+    src: url(../fontes/PassionOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'fonte2';
+    src: url(../fontes/Sarabun-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header1{
+    font-family: 'fonte1';
+    background-color: #24411F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.navegacao{
+    flex: 1;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.lista1{
+    margin-left: 20px;
+}
+.titulo{
+    text-align: center;
+    flex: 1;
+    line-height: 20px;
+}
+
+#titulo1{
+    color: white;
+}
+
+#titulo2{
+    color:#A5E2B3;
+}
+
+h1{
+    font-size: 20px;
+}
+
+#galeria1{
+    color: #A5E2B3;
+}
+
+.locheader{
+    color: white;
+    opacity: 80%;
+    flex: 1;
+}
+
+main{
+    font-family:'fonte2';
+}
+.paggaleria{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+}
+
+#boasvindas{
+    font-size: 30px;
+}
+
+#descricao{
+    font-size: 20px;
+}
+
+.tipos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galerias{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+img{
+    border: black solid 2px;
+    width: 275px;
+    height: 170px;
+}
+
+.imagensquartos{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 5px;
+}
+
+hr{
+    margin-top: 20px;
+}
